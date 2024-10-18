@@ -1,2 +1,18 @@
 hello world!
+
+git config --global user.name "nom_user"
+git config --global user.email "test@gmail.com"
+mkdir name_folder
+cd name_folder
+git init 
+git add file.txt
+git commit -m "commentaire du dépôt"
+git branch -M main
+git remote add origin url_du_dépôt_git
+git push -u origin main
+
 Modification du test de Git
+git init
+git commit -m 'commentaire de la modif"
+git branch -M main
+git push -u origin main
